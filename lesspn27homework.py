@@ -65,8 +65,6 @@
 # 		if x%3==0 or x%5==0:
 # 			sum_number+=x
 
-# 	return sum_number
-
 # 	try:
 # 		file=open(file_name)
 # 		return json.load(file)
@@ -115,8 +113,25 @@
 
 
 '''5)You have text.txt file and contains such text: Another pause and more eying and siding around each other You can create one dict where you have'''
+# def convert_txt_to_dict(file_name)
+# 	try:
+# 		convert={}
+# 		with open(file_name) as f
+# 			for i in f.read().split():
+# 				if i in convert:
+# 					convert[i]=convert[i]+1
 
+# 				else:
+# 					convert[i]=1
+# 			print(convert)
 
+# 	except FileNotFoundError:
+# 		text=input('Write some text:')
+# 		with open(file_name,'w') as f
+# 		f.write(text)
+
+# file_name='res.text'
+# convert_txt_to_dict(file_name)
 
 
 '''6)Write a python function which get a new list from a given list, consisting of the first repeating elements.'''
